@@ -17,8 +17,7 @@ module.exports = {
   },
   // bare minimum, your config file needs urls to test.
   urls: [
-    'http://pa11y.org/',
-    'http://google.com/',
+    'http://pa11y.org/',    
     'https://www.lowes.ca/',
   ],
 };
