@@ -19,6 +19,6 @@ module.exports = {
   urls: [
     'http://pa11y.org/',
     'http://google.com/',
-    'https://www.lowes.ca',
+    'http://www.lowes.ca',
   ],
 };
