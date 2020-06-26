@@ -1,0 +1,82 @@
+$c-blue: #2c3e50;
+$c-dark: #0e2e41;
+$c-light: #008eb0;
+$c-background: #e9ecef;
+$c-text: #2e2e30;
+
+$c-error: red;
+$c-warning: goldenrod;
+$c-notice: $c-light;
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: $c-text;
+  background: $c-background;
+}
+#logo {
+  color: black;
+}
+
+// overriding some bootstrap stuff in a dumb way
+.container {
+  max-width: 100%;
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.table td:nth-child(3), .table td:nth-child(4) {
+  word-break: break-word;
+}
+.sidebar.col-3 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+.red {
+  color: $c-error;
+}
+.sidebar {
+  height: 100%;
+}
+.block {
+  border: 1px solid $c-blue;
+  background: rgba($c-blue, .2);
+  font-size: 1.25rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+
+  ul {
+    list-style-type: none;
+  }
+}
+.filter {
+  display: flex;
+  align-items: baseline;
+  font-size: .8rem;
+  word-break: break-word;
+
+  input {
+    margin-right: 1rem;
+  }
+
+  a {
+    color: $c-light;
+    font-size: .75rem;
+  }
+  span {
+    margin-left: .5rem;
+    color: rgba($c-text, .5);
+    white-space: nowrap;
+  }
+}
+
+.result-container {
+  justify-content: flex-start;
+  overflow-y: scroll;
+
+  .block {
+    margin: .5rem;
+  }
+}
