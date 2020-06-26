@@ -21,5 +21,5 @@ yarn-error.log*
 *.sw?
 
 # generated config & report
-/tests/pa11y/report.json
-/tests/pa11y/config.json
+#/tests/pa11y/report.json
+#/tests/pa11y/config.json
